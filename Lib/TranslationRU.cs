@@ -1283,31 +1283,36 @@ namespace Souvenir
             // What was the border color when you pressed the first key in Bordered Keys?
             [Question.BorderedKeysBorderColor] = new()
             {
-                QuestionText = "What was the border color when you pressed the {1} key in {0}?",
+                Conjugation = Conjugation.GenitivePlural,
+                QuestionText = "Какого цвета была рамка, когда вы нажали {1}-ю клавишу {0}?",
             },
             // What was the digit displayed when you pressed the {1} key in {0}?
             // What was the digit displayed when you pressed the first key in Bordered Keys?
             [Question.BorderedKeysDigit] = new()
             {
-                QuestionText = "What was the digit displayed when you pressed the {1} key in {0}?",
+                Conjugation = Conjugation.GenitivePlural,
+                QuestionText = "Какая цифра отображалась на дисплее, когда вы нажали {1}-ю клавишу {0}?",
             },
             // What was the key color when you pressed the {1} key in {0}?
             // What was the key color when you pressed the first key in Bordered Keys?
             [Question.BorderedKeysKeyColor] = new()
             {
-                QuestionText = "What was the key color when you pressed the {1} key in {0}?",
+                Conjugation = Conjugation.GenitivePlural,
+                QuestionText = "Какого цвета была клавиша, когда вы нажали {1}-ю клавишу {0}?",
             },
             // What was the label when you pressed the {1} key in {0}?
             // What was the label when you pressed the first key in Bordered Keys?
             [Question.BorderedKeysLabel] = new()
             {
-                QuestionText = "What was the label when you pressed the {1} key in {0}?",
+                Conjugation = Conjugation.GenitivePlural,
+                QuestionText = "Какая была надпись, когда вы нажали {1}-ю клавишу {0}?",
             },
             // What was the label color when you pressed the {1} key in {0}?
             // What was the label color when you pressed the first key in Bordered Keys?
             [Question.BorderedKeysLabelColor] = new()
             {
-                QuestionText = "What was the label color when you pressed the {1} key in {0}?",
+                Conjugation = Conjugation.GenitivePlural,
+                QuestionText = "Какого цвета была надпись, когда вы нажали {1}-ю клавишу {0}?",
             },
 
             // Boxing
@@ -2098,7 +2103,8 @@ namespace Souvenir
             // What was the color of this button in Conditional Buttons?
             [Question.ConditionalButtonsColors] = new()
             {
-                QuestionText = "What was the color of this button in {0}?",
+                Conjugation = Conjugation.PrepositivePlural,
+                QuestionText = "Какого цвета была эта кнопка на {0}?",
             },
 
             // Connected Monitors
@@ -2637,7 +2643,8 @@ namespace Souvenir
             // What was the first display in DetoNATO?
             [Question.DetoNATODisplay] = new()
             {
-                QuestionText = "What was the {1} display in {0}?",
+                Conjugation = Conjugation.GenitiveMascNeuter,
+                QuestionText = "Что было на дисплее на {1}-м этапе {0}?",
             },
 
             // Devilish Eggs
@@ -2727,43 +2734,57 @@ namespace Souvenir
             // What was the missing information for the first key in Disordered Keys?
             [Question.DisorderedKeysMissingInfo] = new()
             {
-                QuestionText = "What was the missing information for the {1} key in {0}?",
+                Conjugation = Conjugation.GenitivePlural,
+                QuestionText = "Какой информации недоставало {1}-й клавише {0}?",
+                ModuleName = "Беспорядочных клавиш",
             },
             // What was the revealed key color for the {1} key in {0}?
             // What was the revealed key color for the first key in Disordered Keys?
             [Question.DisorderedKeysRevealedKeyColor] = new()
             {
-                QuestionText = "What was the revealed key color for the {1} key in {0}?",
+                Conjugation = Conjugation.GenitivePlural,
+                QuestionText = "Каким был выявленный цвет {1}-й клавиши {0}?",
+                ModuleName = "Беспорядочных клавиш",
             },
             // What was the revealed label for the {1} key in {0}?
             // What was the revealed label for the first key in Disordered Keys?
             [Question.DisorderedKeysRevealedLabel] = new()
             {
-                QuestionText = "What was the revealed label for the {1} key in {0}?",
+                Conjugation = Conjugation.GenitivePlural,
+                QuestionText = "Какая была выявленная надпись {1}-й клавиши {0}?",
+                ModuleName = "Беспорядочных клавиш",
             },
             // What was the revealed label color for the {1} key in {0}?
             // What was the revealed label color for the first key in Disordered Keys?
             [Question.DisorderedKeysRevealedLabelColor] = new()
             {
-                QuestionText = "What was the revealed label color for the {1} key in {0}?",
+                Conjugation = Conjugation.GenitivePlural,
+                QuestionText = "Каким был выявленный цвет надписи {1}-й клавиши {0}?",
+                ModuleName = "Беспорядочных клавиш",
             },
             // What was the unrevealed key color for the {1} key in {0}?
             // What was the unrevealed key color for the first key in Disordered Keys?
             [Question.DisorderedKeysUnrevealedKeyColor] = new()
             {
-                QuestionText = "What was the unrevealed key color for the {1} key in {0}?",
+                Conjugation = Conjugation.GenitivePlural,
+                QuestionText = "Каким был нераскрытый цвет {1}-й клавиши {0}?",
+                ModuleName = "Беспорядочных клавиш",
             },
             // What was the unrevealed label for the {1} key in {0}?
             // What was the unrevealed label for the first key in Disordered Keys?
             [Question.DisorderedKeysUnrevealedKeyLabel] = new()
             {
-                QuestionText = "What was the unrevealed label for the {1} key in {0}?",
+                Conjugation = Conjugation.GenitivePlural,
+                QuestionText = "Какая была нераскрытая надпись {1}-й клавиши {0}?",
+                ModuleName = "Беспорядочных клавиш",
             },
             // What was the unrevealed label color for the {1} key in {0}?
             // What was the unrevealed label color for the first key in Disordered Keys?
             [Question.DisorderedKeysUnrevealedLabelColor] = new()
             {
-                QuestionText = "What was the unrevealed label color for the {1} key in {0}?",
+                Conjugation = Conjugation.GenitivePlural,
+                QuestionText = "Каким был нераскрытый цвет надписи {1}-й клавиши {0}?",
+                ModuleName = "Беспорядочных клавиш",
             },
 
             // Divisible Numbers
@@ -3248,7 +3269,9 @@ namespace Souvenir
             // What was the active error code in Error Codes?
             [Question.ErrorCodesActiveError] = new()
             {
-                QuestionText = "What was the active error code in {0}?",
+                Conjugation = Conjugation.GenitivePlural,
+                QuestionText = "Какой из {0} был активным?",
+                ModuleName = "Кодов ошибок",
             },
 
             // Etterna
@@ -3264,39 +3287,47 @@ namespace Souvenir
             // What was the starting target planet in Exoplanets?
             [Question.ExoplanetsStartingTargetPlanet] = new()
             {
-                QuestionText = "Какая была начальная целевая планета {0}?",
+                Conjugation = Conjugation.GenitivePlural,
+                QuestionText = "Какая была начальная целевая планета из {0}?",
+                ModuleName = "Экзопланет",
                 Answers = new Dictionary<string, string>
                 {
-                    ["outer"] = "внешняя",
-                    ["middle"] = "средняя",
-                    ["inner"] = "внутреняя",
-                    ["none"] = "никакая",
+                    ["outer"] = "Внешняя",
+                    ["middle"] = "Средняя",
+                    ["inner"] = "Внутреняя",
+                    ["none"] = "Никакая",
                 },
             },
             // What was the starting target digit in {0}?
             // What was the starting target digit in Exoplanets?
             [Question.ExoplanetsStartingTargetDigit] = new()
             {
+                Conjugation = Conjugation.в_PrepositivePlural,
                 QuestionText = "Какая была начальная целевая цифра {0}?",
+                ModuleName = "Экзопланетах",
             },
             // What was the final target planet in {0}?
             // What was the final target planet in Exoplanets?
             [Question.ExoplanetsTargetPlanet] = new()
             {
-                QuestionText = "Какая была финальная целевая планета {0}?",
+                Conjugation = Conjugation.GenitivePlural,
+                QuestionText = "Какая была финальная целевая планета из {0}?",
+                ModuleName = "Экзопланет",
                 Answers = new Dictionary<string, string>
                 {
-                    ["outer"] = "внешняя",
-                    ["middle"] = "средняя",
-                    ["inner"] = "внутреняя",
-                    ["none"] = "никакая",
+                    ["outer"] = "Внешняя",
+                    ["middle"] = "Средняя",
+                    ["inner"] = "Внутреняя",
+                    ["none"] = "Никакая",
                 },
             },
             // What was the final target digit in {0}?
             // What was the final target digit in Exoplanets?
             [Question.ExoplanetsTargetDigit] = new()
             {
+                Conjugation = Conjugation.в_PrepositivePlural,
                 QuestionText = "Какая была финальная целевая цифра {0}?",
+                ModuleName = "Экзопланетах",
             },
 
             // Factoring Maze
@@ -5928,7 +5959,9 @@ namespace Souvenir
             // What was the position of the submit button in Mixometer?
             [Question.MixometerSubmitButton] = new()
             {
-                QuestionText = "What was the position of the submit button in {0}?",
+                Conjugation = Conjugation.GenitiveMascNeuter,
+                QuestionText = "В какой позиции была кнопка отправки {0}?",
+                ModuleName = "Миксометра",
             },
 
             // Modern Cipher
@@ -11364,17 +11397,17 @@ namespace Souvenir
             "Алло? Да, я сейчас обезвреживаю бомбу.",    // “E.T. phone home.” (E.T. the Extra-Terrestrial)
             "Бомб. Джеймс Бомб.",    // “Bond. James Bond.” (Dr. No / James Bond series)
             "Бомба тебе не по зубам!",   // “You can’t handle the truth!” (A Few Good Men)
-            "Тебе понадобится бомба побольше.", // “You’re gonna need a bigger boat.” (Jaws)
+            "Тебе понадо- бится бомба побольше.", // “You’re gonna need a bigger boat.” (Jaws)
             "Бомбы – это как коробка шоколадных конфет. Никогда не знаешь, что попадётся.",    // “My mom always said life was like a box of chocolates. You never know what you’re gonna get.” (Forrest Gump)
             "Хьюстон, у нас бомба.",   // “Houston, we have a problem.” (Apollo 13)
             "Элементарно, мой дорогой эксперт.",  // “Elementary, my dear Watson.” (Sherlock Holmes) (misquote)
             "Забудь об этом, Джейк, это КТАНЕ.",     // “Forget it, Jake, it’s Chinatown.” (Chinatown)
-            "Я всегда полагался на компетентность экспертов.",    // “I’ve always depended on the kindness of strangers.” (A Streetcar Named Desire)
+            "Я всегда полагался на компетент- ность экспертов.",    // “I’ve always depended on the kindness of strangers.” (A Streetcar Named Desire)
             "Бомба. Взорванная, а не обезвреженная.",   // “A martini. Shaken, not stirred.” (Diamonds Are Forever (novel) / James Bond)
             "Ябба- дабба- бум!",    // “Yabba dabba doo!” (Flintstones)
             "Эта бомба взорвётся через пять секунд.",    // “This tape will self-destruct in five seconds.” (Mission: Impossible)
             "Обезвре- живание бесполезно.",  // “Resistance is futile.” (Star Trek: The Next Generation)
-            "Это твой оконча- тельный ответ?",   // direct quote (Who Wants to be a Millionaire?)
+            "Это твой окончатель- ный ответ?",   // direct quote (Who Wants to be a Millionaire?)
             "Лучший друг бомбы – это её сапёр.", // “A man’s best friend is his dog.” (attorney George Graham Vest, 1870 Warrensburg)
             "Держи своих экспертов близко, но свою бомбу – ещё ближе.",   // “Keep your friends close and your enemies closer.” (The Prince / Machiavelli)
             "Пристегните ремни безопасности. Это будет взрывная ночь.",   // “Fasten your seat belts, it’s going to be a bumpy night.” (All About Eve)
@@ -11384,7 +11417,7 @@ namespace Souvenir
             "Вы что, перепутали провода?", // “Have you got your lions crossed?” (The Lion King)
             "Не перепутай провода.",   // “Don’t cross the streams.” (Ghostbusters)
             "Хотите услышать самый мощный и громкий взрыв в мире?", // “Wanna hear the most annoying sound in the world?” (Dumb & Dumber)
-            "Руководства? Там, куда мы идём, они нам не нужны.",   // “Roads? Where we’re going, we don’t need roads.” (Back to the Future)
+            "Руковод- ства? Там, куда мы идём, они нам не нужны.",   // “Roads? Where we’re going, we don’t need roads.” (Back to the Future)
             "Первое правило обезвреживания заключается в том, что вы продолжаете говорить об обезвреживании.",    // “The first rule of Fight Club is, you don’t talk about Fight Club.” (Fight Club)
             "Мы обезвреживаем бомбы.",  // “We rob banks.” (Bonnie and Clyde)
             "Кто-то подложил нам бомбу.",  // direct quote (Zero Wing)
@@ -11393,13 +11426,15 @@ namespace Souvenir
             "То же самое, что мы делаем каждый вечер, эксперт. Попробуем обезвредить бомбу!", // “The same thing we do every night, Pinky. Try to take over the world!” (Pinky and the Brain)
             "Кто-нибудь заказывал жареного сапёра?", // “Anybody order fried sauerkraut?” (Once Upon a Time in Hollywood)
             "У меня есть несколько сапёров, которых нужно разнести в пух и прах!", // “I’ve got some children I need to make into corpses!” (Gravity Falls, Weirdmageddon 3: Take Back The Falls)
-            "Я – неизбежность.", // direct quote (Avengers: Endgame)
+            "Я – неизбеж- ность.", // direct quote (Avengers: Endgame)
             "Бойтесь, бегите! Бомбы все равно взорвутся.", // “Dread it, run from it, destiny still arrives.” (Avengers: Infinity War)
             "Это прекрасная вещь – детонация бомб.", // “It’s a beautiful thing, the destruction of words.” (1984)
             "Кто-то считает себя слишком умным для меня. Они все так думают поначалу.", // Someone thinks they’re too clever for us. They all think that at first. (Invincible)
+            "Поздоровайся с моей маленькой бомбочкой.", // “Say hello to my little friend!” (Scarface)
+            "Давай, обезвредь мою бомбу.", // “Go ahead, make my day.” (Sudden Impact / Dirty Harry series)
 
             // Specific to Russian culture
-            "Хочешь, я взорву все бомбы, что мешают спать?",  // Хочешь я взору все звёзды, что мешают спать? — Song, Земфира - Хочешь?
+            "Хочешь, я взорву все бомбы, что мешают спать?",  // Хочешь я взорву все звёзды, что мешают спать? — Song, Земфира - Хочешь?
             "И у бомбы нашей села батарейка.",  // И у любви нашей села батарейка. — Song, Жуки - Батарейка
             "Какая гадость, какая гадость эта ваша бомба...",  // Какая гадость, какая гадость эта ваша заливная рыба... — Movie "Ирония судьбы, или С лёгким паром!"
             "Научиться бы не взрываться по пустякам.",  // Научиться бы не париться по пустякам. — Song, Градусы - Научиться бы не париться
@@ -11430,13 +11465,13 @@ namespace Souvenir
             "Ну, бомба! Ну, погоди!",  // Ну, заяц! Ну, погоди! — Cartoon "Ну, погоди!"
             "Чудо враждебной техники!",  // Чудо враждебной техники! — Movie "Тайна третьей планеты"
             "Нельзя просто так взять, и обезвредить бомбу.",  // Нельзя просто так взять и войти в Мордор. — Meme from "The Lord of the Rings"
-            "Я в своём обезвреживании настолько преисполнился.",  // Я в своём познании настолько преисполнился. — Internet meme
+            "Я в своём обезврежи- вании настолько преисполнился.",  // Я в своём познании настолько преисполнился. — Internet meme
             "Бомба замини- рована.",  // Тапок заминирован — Internet meme
             "Это бомба, братан.",  // Это фиаско, братан. — Internet meme
             "Выпьем за бомбу!",  // Выпьем за любовь! — Toast phrase/Song Игорь Николаев - Выпьем за любовь
             "Укуси меня бомба!",  // Укуси меня пчела! — Cartoon "Смешарики"
             "Взорвать нельзя обезвредить.",  // Казнить нельзя помиловать. — Famous grammatical exercise
-            "Египетская бомба!",  // Египетская сила! — Sitcom, Воронины
+            "Египет- ская бомба!",  // Египетская сила! — Sitcom, Воронины
             "И мы взорваны!",  // И мы счастливы! — Sitcom, Счастливы вместе
             "Всё поймать стремится. Бомбу!",  // Всё поймать стремится молнию! — Song, КиШ - Дурак и молния
             "Что нас ждёт, бомба хранит молчанье.",  // Что нас ждёт, море хранит молчанье. — Song, Ария - Штиль
